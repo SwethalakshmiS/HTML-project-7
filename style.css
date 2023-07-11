@@ -1,0 +1,311 @@
+.face{
+    height: 220px;
+    width: 250px;
+    background-color: silver;
+    margin-top: 200px;
+    margin-left: 1200px;
+    border-radius: 5000px 5000px 0px 0px;
+    position: relative;
+}
+
+.reye{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 100%;
+    margin-top:-60px;
+    margin-left: 1240px;
+    position: absolute;
+}
+
+.leye{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: -60px;
+    margin-left: 1380px;
+    position: absolute;
+}
+
+.body{
+    height: 280px;
+    width: 250px;
+    background-color: silver;
+    border-radius: 0px 0px 70px 70px;
+    margin-top: 20px;
+    margin-left: 1200px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+.rhand{
+    height: 125px;
+    width: 40px;
+    background-color: silver;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 60px;
+    margin-left: 1140px;
+    position: absolute  ;
+}
+
+.lhand{
+    height: 125px;
+    width: 40px;
+    background-color: silver;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 70px;
+    margin-left: 1470px;
+    position: absolute;
+}
+
+.rleg{
+    /* border: 2px solid black; */
+    height: 125px;
+    width: 40px;
+    background-color: silver;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 250px;
+    margin-left: 1250px;
+    position: absolute;
+}
+
+.lleg{
+    /* border: 2px solid black; */
+    height: 125px;
+    width: 40px;
+    background-color: silver;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 250px;
+    margin-left: 1350px;
+    position: absolute;
+}
+
+.face:hover{
+    background-color: red;
+    transform: scale(1);
+    
+}
+
+.reye:hover{
+    background-color: red;
+    transform: scale(1);
+    
+}
+
+.leye:hover{
+    background-color: red;
+    transform: scale(1);
+    
+}
+
+.rhand:hover{
+    background-color: red;
+    transform: scale(1);
+    
+}
+
+.lhand:hover{
+    background-color: red;
+    transform: scale(1);
+    
+}
+
+.body:hover{
+    background-color: red;
+    transform: scale(1);
+    
+}
+.rleg:hover{
+    background-color: red;
+    transform: scale(1);
+    
+}
+
+.lleg:hover{
+    background-color: red;
+    transform: scale(1);
+    
+}
+.lhand:hover{
+    animation: lhand 2s infinite;
+}
+@keyframes lhand {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    25%{
+        transform: rotate(60deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(60deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    /* 125%{
+        transform: rotate(180deg);
+    }
+    150%{
+        transform: rotate(210deg);
+    }
+    180%{
+        transform: rotate(240deg);
+    }
+    210%{
+        transform: rotate(270deg);
+    }
+    240%{
+        transform: rotate(300deg);
+    }
+    270%{
+        transform: rotate(330deg);
+    }
+    300%{
+        transform: rotate(360deg);
+    }
+    350%{
+        transform: rotate(400deg);
+    }
+    400%{
+        transform: rotate(450deg);
+    }
+    450%{
+        transform: rotate(500deg);
+    }
+    500%{
+        transform: rotate(550deg);
+    } */
+    
+}
+
+.face:hover{
+    animation: face 2s infinite;
+}
+@keyframes face {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    25%{
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+    75%{
+        transform: rotate(40deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+    /* 125%{
+        transform: rotate(180deg);
+    }
+    150%{
+        transform: rotate(210deg);
+    }
+    180%{
+        transform: rotate(240deg);
+    }
+    210%{
+        transform: rotate(270deg);
+    }
+    240%{
+        transform: rotate(300deg);
+    }
+    270%{
+        transform: rotate(330deg);
+    }
+    300%{
+        transform: rotate(360deg);
+    }
+    350%{
+        transform: rotate(400deg);
+    }
+    400%{
+        transform: rotate(450deg);
+    }
+    450%{
+        transform: rotate(500deg);
+    }
+    500%{
+        t6ransform: rotate(550deg);
+    } */ 
+}
+
+.container:hover,.face,.reye,.leye,.body,.rhand,.lhand,.rleg,.lleg{
+    animation: container 2s infinite;
+}
+@keyframes container {
+    0%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    25%{
+        transform: rotate(30deg);
+        transform-origin: top;
+    }
+    50%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    75%{
+        transform: rotate(30deg);
+        transform-origin: top;
+    }
+    100%{
+        transform: rotate(0deg);
+        transform-origin: top;
+    }
+    /* 125%{
+        transform: rotate(180deg);
+        transform-origin: top;
+    }
+    150%{
+        transform: rotate(210deg);
+        transform-origin: top;
+    }
+    180%{
+        transform: rotate(240deg);
+        transform-origin: top;
+    }
+    210%{
+        transform: rotate(270deg);
+        transform-origin: top;
+    }
+    240%{
+        transform: rotate(300deg);
+        transform-origin: top;
+    }
+    270%{
+        transform: rotate(330deg);
+        transform-origin: top;
+    }
+    300%{
+        transform: rotate(360deg);
+        transform-origin: top;
+    }
+    350%{
+        transform: rotate(400deg);
+        transform-origin: top;
+    }
+    400%{
+        transform: rotate(450deg);
+        transform-origin: top;
+    }
+    450%{
+        transform: rotate(500deg);
+        transform-origin: top;
+    }
+    500%{
+        transform: rotate(550deg);
+        transform-origin: top;
+    } */
+}
